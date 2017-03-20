@@ -1,0 +1,29 @@
+{
+  "name": "weplan",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "build": "webpack --watch",
+    "webpack": "webpack-dev-server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.14.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.14.0",
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "node-mysql": "^0.4.2",
+    "nodemon": "^1.11.0",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "1.15.2"
+  },
+  "dependencies": {
+    "mongoose": "^4.9.1",
+    "mysql": "^2.13.0"
+  }
+}
